@@ -11,7 +11,7 @@ RUN mvn clean package
 # Build keycloak
 FROM ${KEYCLOAK_IMAGE} as keycloak-builder
 
-COPY --from=jdk-builder /workspace/protocol-mapper/target/keycloak-custom-protocol-mapper-example.jar /opt/keycloak/providers/
+COPY --from=jdk-builder /assets/*.jar /opt/keycloak/providers/
 
 RUN /opt/keycloak/bin/kc.sh build
 

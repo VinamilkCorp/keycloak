@@ -4,7 +4,7 @@
     <name>Keycloak</name>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>keycloak-custom-protocol-mapper-example-parent</artifactId>
+    <artifactId>keycloak-custom-protocol-mapper-parent</artifactId>
     <groupId>hamburg.schwartau</groupId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>

@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>hamburg.schwartau</groupId>
-        <artifactId>keycloak-custom-protocol-mapper-example-parent</artifactId>
+        <artifactId>keycloak-custom-protocol-mapper-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>keycloak-custom-protocol-mapper-example</artifactId>
+    <artifactId>keycloak-custom-protocol-mapper</artifactId>
 
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
