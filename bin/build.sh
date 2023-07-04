@@ -10,6 +10,10 @@ copy() {
   ls ./protocol-mapper/target
   mkdir -p ./docker/assets
   cp ./protocol-mapper/target/*.jar ./docker/assets/
+
+  cp ./data-setup/src/main/bash/populate-data.sh ./docker/assets/
+  cp ./data-setup/target/data-setup.jar ./docker/assets/
+  cp ./data-setup/src/main/bash/populate-data.sh ./docker/assets/
 }
 
 buildx() {

@@ -2,6 +2,8 @@ target/
 out/
 .DS_Store
 
+docker/assets*.jar
+
 ### STS ###
 .apt_generated
 .classpath
