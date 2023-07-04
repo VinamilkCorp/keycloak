@@ -4,4 +4,4 @@ ARG KEYCLOAK_IMAGE="bitnami/keycloak:21.1.1"
 FROM ${KEYCLOAK_IMAGE}
 
 
-COPY ./assets/*.jar /opt/bitnami/keycloak/providers/
+#COPY ./assets/*.jar /opt/bitnami/keycloak/providers/
