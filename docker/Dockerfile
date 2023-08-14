@@ -6,4 +6,4 @@ FROM ${KEYCLOAK_IMAGE}
 WORKDIR /
 
 # COPY vnm-* /opt/bitnami/keycloak/themes/vnmtheme
-CMD [ "cp ./keycloak-them/login /opt/bitnami/keycloak/themes/vnmtheme" ]
+CMD [ "cp ./keycloak-them/login /opt/bitnami/keycloak/themes/" ]
