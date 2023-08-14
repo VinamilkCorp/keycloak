@@ -5,4 +5,4 @@ FROM ${KEYCLOAK_IMAGE}
 
 WORKDIR /keycloak
 
-COPY ./vnm-keycloak-theme/login  /opt/bitnami/keycloak/themes
+COPY ./vnm-keycloak-theme  /opt/bitnami/keycloak/themes
